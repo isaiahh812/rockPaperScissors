@@ -12,13 +12,13 @@ def calculateWinner(num):
     if(playerChoice == computerChoice):
         results.config(text = "Welp I can't complain")
     elif (playerChoice == "rock" and computerChoice == "scissors"):
-        results.config(text = "Fuck you bitch I'm  a sore loser!!")
+        results.config(text = "NOOOOOOOO!")
     elif(playerChoice == "scissors" and computerChoice == "paper"):
-        results.config(text = "Fucking slut I'll kill you!!")
+        results.config(text = "Can't believe I lost!!")
     elif(playerChoice == "paper" and computerChoice == "rock"):
-        results.config(text = "You gotta be fucking kidding me!!")
+        results.config(text = "You gotta be kidding me!!")
     else:
-        results.config(text = "Hehe you fucking suck ass")
+        results.config(text = "Hehe I won")
 def choiceAsString(num):
     print(num)
     if num is 0:
